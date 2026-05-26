@@ -16,6 +16,8 @@ A data science project that predicts IPL match winners using historical data (20
 ---
 
 ## 🗂️ Project Structure
+
+```
 ipl-match-outcome-predictor/
 ├── data/
 │   ├── raw/                  # Original Kaggle dataset
@@ -34,6 +36,7 @@ ipl-match-outcome-predictor/
 ├── reports/
 │   └── visualizations/       # All charts and plots
 └── requirements.txt
+```
 
 ---
 
@@ -78,7 +81,9 @@ pip install -r requirements.txt
 Get `matches.csv` and `deliveries.csv` from [Kaggle](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020) and place them in `data/raw/`
 
 **4. Run the notebooks in order**
+```
 01_data_exploration → 02_data_cleaning → 03_feature_engineering → 04_model_training
+```
 
 **5. Predict a match outcome**
 ```bash
@@ -87,11 +92,16 @@ python predict.py
 ```
 
 **Example output:**
+```
 =============================================
-Mumbai Indians vs Chennai Super Kings
-Mumbai Indians                 75.5%
-Chennai Super Kings            24.5%
-Predicted Winner: Mumbai Indians
+  Mumbai Indians vs Chennai Super Kings
+=============================================
+  Mumbai Indians                 75.5%
+  Chennai Super Kings            24.5%
+=============================================
+  Predicted Winner: Mumbai Indians
+=============================================
+```
 
 ---
 
@@ -99,7 +109,7 @@ Predicted Winner: Mumbai Indians
 
 - **Python** — Pandas, NumPy, Matplotlib, Seaborn
 - **Machine Learning** — Scikit-learn (Logistic Regression, Random Forest)
-- **Visualization** — Matplotlib, Seaborn
+- **Visualization** — Matplotlib, Seaborn, Power BI
 - **Tools** — Jupyter Notebook, Git
 
 ---
