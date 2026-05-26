@@ -126,5 +126,5 @@ python predict.py
 ## 👤 Author
 
 **Amey Pawar**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amey--Pawar-blue)](www.linkedin.com/in/amey-pawar-644a18277)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amey--Pawar-blue)](https://www.linkedin.com/in/amey-pawar-644a18277/)
 [![GitHub](https://img.shields.io/badge/GitHub-AmeyPawar1414-black)](https://github.com/AmeyPawar1414)
